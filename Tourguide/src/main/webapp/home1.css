@@ -1,0 +1,391 @@
+@charset "UTF-8";
+/*Home Page*/
+h1{
+	font-family:Lucida Handwriting;
+	color:#0a0a23;
+	
+}
+
+.body2{
+	background: linear-gradient(270deg, #F3AA9A 0%, #FFF 100%);
+}
+
+.nav{
+    margin: 0;
+    padding: 5px;
+	overflow:hidden;
+	background-color: #8D021F;
+	border-radius:5px;
+}
+
+.list {
+    float:right;
+    font-family:Copperplate;
+    font-size:22px;
+    display:block;
+    background-color:#8D021F;
+    color: white;
+    border-radius:20px;
+    text-align:center;
+    padding:8px;
+    text-decoration:none;
+	width:100px;
+	border: 2px solid orange;
+  }
+  
+.list:hover{
+	 background-color:white;
+     color: #8D021F;
+	 border: 2px solid #8D021F;
+}
+
+.button {
+  background-color:#8D021F;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align:left ;
+  font-weight:bold;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  font-family:Verdana;
+  margin: 10px 4px;
+  width: 200px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius:10px;
+}
+
+.button1 {
+  background-color: white; 
+  color:#8D021F; 
+  border: 2px solid #8D021F;
+  border-radius:10px;
+  
+}
+
+.button1:hover {
+  background-color:#8D021F;
+  color: white;
+  border-radius:10px;
+}
+
+.tab {
+  float: left;
+  border: 1px solid #ef917c;
+  background-color:  #fce6e0;
+  width: 210px;
+  height: 1000px;
+  margin-left:6px;
+}
+
+/* Create an active/current tablink class*/
+.tab button.active{
+  background-color: #8D021F;
+  color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ef917c;
+  background-color: #fce6e0;
+  width: 910px;
+  border-left: none;
+  height: 1000px;
+}
+
+.letter{
+	font-family:Georgia;
+	font-size:30px;
+	color:#0a0a23;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.opt{
+	border: 2px solid #ccc;
+    background-color: white;
+	border-radius:20px;
+	justify-content: center;
+    padding: 0.55em 0 0.85em;
+}
+
+.opt:hover{
+	 border: 1px solid #ccc;
+     background-color: white;
+	 border-radius:20px;
+	 justify-content: center;
+     padding: 0.75em 0 1.05em;
+	 cursor: pointer;
+}
+
+.book{
+	
+    font-family:Copperplate;
+    font-size:22px;
+    display:block;
+    background-color:#555;
+    color:  orange;
+    border-radius:20px;
+    text-align:center;
+    padding:8px;
+    text-decoration:none;
+	width:100px;
+	border: 2px solid orange;
+}
+.book:hover{
+	 background-color:#8D021F;
+     color:orange ;
+	 border: 2px solid orange;
+}
+
+.title{
+	font-family:Verdana;
+	font-weight:bold;
+	color:#0a0a23;
+}
+	
+.checked {
+   font-size:22px;
+   color: #f6877e;
+}
+
+.notchecked{
+	font-size:22px;
+	color:#0a0a23;
+}
+
+.set{
+	float:left;
+	color:white;
+	font-size:22px;
+	margin:13px 13px 13px 13px;
+}
+
+.b1{
+	margin:6px 6px;
+}
+
+.bookings{
+	transform: translate(0, -120px);
+    -ms-transform: translate(-50%, -50%);
+	background-color:#555;
+	color: #555;
+	font-size: 16px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;   
+    border:2px solid orange;	
+}
+.bookings:hover{
+	 background-color:#8D021F;
+     color:white ;
+	 border:2px solid orange;
+}
+
+.opt1{
+	border: 2px solid #ccc;
+    background-color: white;
+	border-radius:20px;
+	justify-content: center;
+	height:280px;
+    padding: 0.55em 0 0.85em;
+}
+
+.opt1:hover{
+	 border: 1px solid #ccc;
+     background-color: white;
+	 border-radius:20px;
+	 justify-content: center;
+     padding: 0.75em 0 1.05em;
+	 cursor: pointer;
+}
+.fa-instagram {
+  color: white;
+ 
+}
+.fa-twitter {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.grad{
+  padding: 5px;
+  font-size:1000px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}	
+
+.Feedback{
+	border-radius:100%;
+	width:80px;
+	height:80px;
+	font-size:30px;
+	background-color:#8D021F;
+	color:white;
+	border:2px solid white;
+	margin:50px 30px ;
+	text-align:center;
+}
+.Feedback:hover{
+	background-color:white;
+	color:#8D021F;
+	border:2px solid #8D021F;
+}
+
+/*Login Page*/
+.body1{
+    background-color: #8D021F; /* For browsers that do not support gradients */
+    background: linear-gradient(135deg, #F3AA9A 0%, #8D021F 100%);
+
+}
+
+.login{
+	background-color:#FFF;
+	border-radius:10px;
+	border: 2px solid #ccc;
+    margin: auto;
+    width: 400px;
+	height:600px;
+    padding: 10px;
+}
+.user-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  background: transparent;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #333;
+}
+/*eye start*/
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-toggle-icon i {
+  font-size: 18px;
+  line-height: 1;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.password-toggle-icon i:hover {
+  color: #000;
+}
+/*eye end*/
+
+.book1{
+	
+    font-family:Copperplate;
+    font-size:22px;
+    display:block;
+    background-color:white;
+    color: #8D021F;
+    border-radius:20px;
+    text-align:center;
+    padding:10px;
+    text-decoration:none;
+	width:300px;
+	border: 2px solid #8D021F;
+}
+.book1:hover{
+	 background:linear-gradient(135deg, #F3AA9A 0%, #8D021F 100%);
+     color:white ;
+}
+
+/*TM page*/
+.face{
+	float:center;
+    padding: 0px 12px;
+    border: 1px solid #ef917c;
+    background-color: #fce6e0;
+    width: 1128px;
+    height: 2000px;
+}
+
+a{
+ color:orange;
+}
+
+/*booking page*/
+
+.para{
+	text-align: justify;
+	font-family:serif ;
+}
+
+.quiz{
+	float:center;
+    padding: 0px 12px;
+    border: 1px solid #ef917c;
+    background-color:white;
+    width: 1102px;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 6%;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  color: #000;
+  cursor: pointer;
+}
+
+label{
+	font-size:20px;
+	text-align: left;
+}
+
+input{
+	float: left;
+}
+
+
